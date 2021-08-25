@@ -1,10 +1,14 @@
 :root {
-  --first-color: #6c63ff;
-  --second-color: #f5f2fe;
-  --third-color: #ffe9e3;
-  --fourth-color: #c4c1e0;
+  --first-color: #a2792f;
+  --second-color: #f7ca44;
+  --third-color: #d5eeff;
+  --fourth-color: #5c3c10;
 
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: var(--third-color);
 }
 
 .margin {
@@ -81,14 +85,14 @@
 .yogurt-link,
 .weather-link {
   background-color: var(--second-color);
-  border: 1px solid var(--first-color);
+  border: 1px solid var(--second-color);
   border-radius: 15px;
   color: var(--first-color);
   box-shadow: var(--box-shadow);
 }
 
 .navbar {
-  background: var(--second-color);
+  background: var(--third-color);
 }
 
 .about-nav-link,
@@ -99,6 +103,7 @@
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 .nav-link {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Tanimola Somolu's portfolio website">
+    <meta name="description" content="Tanimola Somolu's portfolio website" />
     <title>Tanimola Somolu-Portfolio Website</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -12,12 +12,17 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white mb-5">
       <div class="container-fluid">
-        <a class="navbar-brand text-light ps-4" href="#" title="Portfolio Navigation Bar">Tanimola Somolu</a>
+        <a
+          class="navbar-brand text-dark ps-4"
+          href="#"
+          title="Portfolio Navigation Bar"
+          >Tanimola Somolu</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -32,22 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link active text-light"
-                aria-current="page"
-                href="index.html"
+              <a class="nav-link active text-dark" aria-current="page" href="/"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link about-nav-link text-light" href="about.html"
+              <a class="nav-link about-nav-link text-dark" href="/about.html"
                 >About Me</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link contact-nav-link text-light"
-                href="about.html#contact-me"
+                class="nav-link contact-nav-link text-dark"
+                href="/about.html#contact-me"
                 >Contact Me</a
               >
             </li>
@@ -55,34 +57,27 @@
         </div>
       </div>
     </nav>
-    <h2 class="h2-font text-center margin">👋🏾 Hello I am</h2>
-    <h1 class="h1-font text-center margin" id="me">Tanimola Somolu</h1>
-    <h3 class="h3-font text-center margin">
+    <h2 class="h2-font text-center margin intro">👋🏾 Hello I am</h2>
+    <h1 class="h1-font text-center margin intro" id="me">Tanimola Somolu</h1>
+    <h3 class="h3-font text-center margin intro">
       🇳🇬 HCD/LXD designer and front-end developer based in Lagos
     </h3>
 
     <div class="page-links">
-      <a href="about.html#contact-me" class="contact-link" title="Connect with Tanimola Somolu">Contact Me</a>
-      <a href="about.html" class="about-link" title="See more projects by Tanimola Somolu">About Me</a>
+      <a
+        href="/about.html#contact-me"
+        class="contact-link"
+        title="Connect with Tanimola Somolu"
+        >Contact Me</a
+      >
+      <a
+        href="/about.html"
+        class="about-link"
+        title="See more projects by Tanimola Somolu"
+        >About Me</a
+      >
     </div>
-
-    <div class="container p-5">
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <img src="images/yoga.png" class="img-fluid" alt="Woman in a yoga pose"/>
-        </div>
-        <div class="col-md-6 p-3">
-          <h2 class="h2-font mb-3">Yoga App</h2>
-          <p>
-            Etiam dapibus sem nisi, sit amet sollicitudin tellus ultrices a. Sed
-            elementum ultricies nunc eu luctus. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae; Donec non
-            orci id augue vestibulum molestie.
-          </p>
-          <a href="index.html#me" class="yoga-link" title="Explore the yoga app">Launch Yoga App</a>
-        </div>
-      </div>
-
+    <div class="container">
       <div class="row mt-5">
         <div class="col-md-6 p-3">
           <h2 class="h2-font mb-3">Weather App</h2>
@@ -93,19 +88,33 @@
             vulputate feugiat a ac risus. Nulla bibendum faucibus congue. Fusce
             fringilla ullamcorper neque, ac tempus purus lobortis et.
           </p>
-          <a href="index.html#me" class="weather-link" title="Explore the weather app">Launch Weather App</a>
+          <br />
+          <a
+            href="index.html#me"
+            class="weather-link"
+            title="Explore the weather app"
+            >Launch Weather App</a
+          >
         </div>
         <div class="col-md-6">
-          <img src="images/weather.png" class="img-fluid" alt="Snapshot of the weather app"/>
+          <img
+            src="/img/weather-app.png"
+            class="img-fluid"
+            alt="Snapshot of the weather app"
+          />
         </div>
       </div>
 
-      <div class="row mt-5">
+      <div class="row mt-5 mb-5">
         <div class="col-md-6">
-          <img src="images/yogurt.png" class="img-fluid" alt="Snapshot of the yogurt website"/>
+          <img
+            src="/img/sourdough-website.jpeg"
+            class="img-fluid"
+            alt="Snapshot of the sourdough website"
+          />
         </div>
         <div class="col-md-6 p-3">
-          <h2 class="h2-font mb-3">Yogurt App</h2>
+          <h2 class="h2-font mb-3">Sourdough App</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante
             mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
@@ -114,11 +123,16 @@
             nunc vulputate feugiat a ac risus. Nulla bibendum faucibus congue.
             Fusce fringilla ullamcorper neque, ac tempus purus lobortis et.
           </p>
-          <a href="index.html#me" class="yogurt-link" title="Explore the yogurt website">Launch Yogurt App</a>
+          <br />
+          <a
+            href="index.html#me"
+            class="yogurt-link"
+            title="Explore the yogurt website"
+            >Launch Sourdough App</a
+          >
         </div>
       </div>
     </div>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
