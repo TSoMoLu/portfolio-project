@@ -35,19 +35,19 @@ body {
 }
 
 .home-link {
-  color: var(--first-color);
+  color: var(--fourth-color);
   text-decoration: none;
 }
 
 .email-link {
   font-size: 28px;
   text-decoration: none;
-  color: var(--first-color);
+  color: var(--fourth-color);
 }
 
 .email-link:hover,
 .home-link:hover {
-  color: var(--fourth-color);
+  color: var(--first-color);
   text-decoration: underline;
 }
 
@@ -104,6 +104,7 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 20px;
+  vertical-align: center;
 }
 
 .nav-link {
