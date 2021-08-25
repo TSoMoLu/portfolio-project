@@ -129,6 +129,10 @@ body {
   font-size: 18px;
 }
 
+.active {
+  color: var(--second-color);
+}
+
 @media (max-width: 768px) {
   .h1-font {
     font-size: 32px;
