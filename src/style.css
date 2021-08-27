@@ -122,8 +122,13 @@ body {
   font-size: 18px;
 }
 
-.active {
-  color: var(--second-color);
+.content,
+.about-text {
+  padding-top: 60px;
+}
+
+.reads {
+  padding: 15px 0 30px;
 }
 
 @media (max-width: 768px) {
@@ -151,5 +156,18 @@ body {
   .row {
     margin-top: 0px;
     text-align: center;
+  }
+
+  .img-fluid {
+    max-width: 80%;
+  }
+
+  .about-text {
+    font-size: 18px;
+    padding-top: 0px;
+  }
+
+  .content {
+    padding-top: 0px;
   }
 }
