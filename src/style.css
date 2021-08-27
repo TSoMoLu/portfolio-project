@@ -68,13 +68,6 @@ body {
 }
 
 .contact-link {
-  background-color: var(--second-color);
-  border: 1px solid var(--second-color);
-  border-radius: 4px;
-  color: var(--first-color);
-}
-
-.about-link {
   background-color: var(--first-color);
   border: 1px solid var(--first-color);
   border-radius: 4px;
