@@ -155,8 +155,7 @@ footer .git-signature a {
     font-size: 18px;
   }
   .projects .row,
-  .content,
-  .homepage-img {
+  .content {
     margin-top: 0px;
     text-align: center;
   }
