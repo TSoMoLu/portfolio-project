@@ -27,10 +27,7 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white mb-5">
       <div class="container-fluid">
-        <a
-          class="navbar-brand text-dark ps-4"
-          href="/"
-          title="Portfolio Navigation Bar"
+        <a class="navbar-brand text-dark ps-4" href="/" title="Homepage"
           >Portfolio</a
         >
         <button
@@ -47,16 +44,26 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link about-nav-link" href="/about.html">About Me</a>
+              <a class="nav-link" href="/about.html" title="About page"
+                >About Me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link contact-nav-link" href="/work.html">My Work</a>
+              <a class="nav-link" href="/work.html" title="Project page"
+                >My Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link contact-nav-link" href="/contact.html"
+              <a class="nav-link" href="/contact.html" title="Contact page"
                 >Contact Me</a
               >
             </li>
@@ -64,19 +71,19 @@
         </div>
       </div>
     </nav>
-    <h2 class="h2-font text-center intro">👋🏾 Hello I am</h2>
-    <h1 class="h1-font text-center intro" id="me">Tanimola Somolu</h1>
-    <h3 class="h3-font text-center intro">
+    <h2 class="text-center">👋🏾 Hello I am</h2>
+    <h1 class="text-center" id="me">Tanimola Somolu</h1>
+    <h3 class="text-center text-muted">
       🇳🇬 HCD/LXD designer and front-end developer based in Lagos
     </h3>
 
-    <div class="row mt-5">
+    <div class="row mt-5 homepage-img">
       <div class="col-md-3"></div>
       <div class="col-md-3">
         <a href="/work.html" title="Learn more about this project">
           <img
             src="img/weather-app.png"
-            class="img-fluid p-2 shadow rounded mb-3"
+            class="weather img-fluid p-2 shadow rounded mb-3"
             alt="Snapshot of the weather app"
           />
         </a>
@@ -85,7 +92,7 @@
         <a href="/work.html" title="Learn more about this project">
           <img
             src="img/sourdough-website.jpeg"
-            class="img-fluid p-2 shadow rounded sourdough mb-5"
+            class="sourdough img-fluid p-2 shadow rounded mb-5"
             alt="Snapshot of the sourdough website"
           />
         </a>
@@ -94,18 +101,34 @@
     </div>
     <footer class="text-center">
       <div class="mb-2">
-        <a href="mailto:tanisomolu@gmail.com" class="contact-me"
+        <a
+          href="mailto:tanisomolu@gmail.com"
+          class="contact-me"
+          title="Email address"
+          target="_blank"
           >tanisomolu@gmail.com</a
         >
       </div>
       <div class="socials d-flex justify-content-center">
-        <a href="https://www.linkedin.com/in/tani-somolu/"
+        <a
+          href="https://www.linkedin.com/in/tani-somolu/"
+          title="Linkedin profile"
+          target="_blank"
           ><i class="fab fa-linkedin"></i
         ></a>
-        <a href="https://github.com/TSoMoLu"> <i class="fab fa-github"></i></a>
+        <a
+          href="https://github.com/TSoMoLu"
+          title="Github profile"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i
+        ></a>
       </div>
       <div class="git-signature mb-3 text-muted">
-        <a href="https://github.com/TSoMoLu/portfolio-project"
+        <a
+          href="https://github.com/TSoMoLu/portfolio-project"
+          title="Github source code"
+          target="_blank"
           >Open source code</a
         >
         by Tanimola Somolu

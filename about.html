@@ -45,18 +45,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/">Home</a>
+              <a class="nav-link" aria-current="page" href="/" title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active about-nav-link" href="/about.html"
+              <a class="nav-link active" href="/about.html" title="About page"
                 >About Me</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link contact-nav-link" href="/work.html">My Work</a>
+              <a class="nav-link" href="/work.html" title="Project page"
+                >My Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link contact-nav-link" href="/contact.html"
+              <a class="nav-link" href="/contact.html" title="Contact page"
                 >Contact Me</a
               >
             </li>
@@ -67,42 +71,48 @@
     <div class="container">
       <div class="content">
         <div class="row">
-          <div class="col-md-6 about-text">
-            <h4>
-              My name is Tanimola, an HCD/LXD designer and front-end developer
-              based in Lagos, Nigeria.
+          <div class="col-md-6">
+            <h4 class="text-muted">
+              I am Tanimola, an HCD/LXD designer and front-end developer based
+              in Lagos, Nigeria.
             </h4>
             <br />
             <p>
-              Etiam dapibus sem nisi, sit amet sollicitudin tellus ultrices a.
-              Sed elementum ultricies nunc eu luctus. Vestibulum ante ipsum
-              primis in faucibus orci luctus et ultrices posuere cubilia curae;
-              Donec non orci id augue vestibulum molestie.
+              My design experience spans across a variety of fields, from the
+              medical field to the academic field. I have worked with teams to
+              re-design already existing products as well as develop new
+              products and experiences for stakeholders. As an engineer, I enjoy
+              going through the process of understanding a user and creating a
+              product or experience that solves a problem or presents an
+              innovative, more efficient way of performing a task. As a
+              front-end developer, I enjoy building structure and design with
+              precise lines of code. Recently, I'm exploring my place in the
+              intersection between programming and design 🧭
             </p>
           </div>
           <div class="col-md-6">
             <img
               src="img/fun-headshot.jpg"
-              class="img-fluid p-2 shadow rounded mb-3"
+              class="self img-fluid p-2 shadow mb-3"
               alt="Self-portrait"
             />
           </div>
         </div>
-        <hr />
-        <h4 class="reads">Reading list...</h4>
-        <div class="row">
+
+        <h4 class="reads d-none d-md-flex">Reading list...</h4>
+        <div class="book-list row d-none d-md-flex">
           <div class="col-md-3 pe-5">
             <img
-              src="img//steal-like-an-artist.jpeg"
-              class="img-fluid shadow sourdough mb-5"
+              src="img//steal-like-an-artist.png"
+              class="img-fluid shadow"
               alt="Steal like an artist"
             />
           </div>
 
           <div class="col-md-3 pe-5">
             <img
-              src="img/creative-confidence.jpeg"
-              class="img-fluid shadow mb-3"
+              src="img/creative-confidence.png"
+              class="img-fluid shadow"
               alt="Creative Confidence"
             />
           </div>
@@ -110,8 +120,15 @@
           <div class="col-md-3 pe-5">
             <img
               src="img/design-everyday.png"
-              class="img-fluid shadow mb-3"
-              alt="Kite Runner"
+              class="img-fluid shadow"
+              alt="Design of everyday things"
+            />
+          </div>
+          <div class="col-md-3 pe-5">
+            <img
+              src="img/kite-runner.png"
+              class="img-fluid shadow"
+              alt="Kite runner"
             />
           </div>
         </div>
@@ -123,20 +140,36 @@
         crossorigin="anonymous"
       ></script>
     </div>
-    <footer class="mt-2 text-center">
+    <footer class="text-center">
       <div class="mb-2">
-        <a href="mailto:tanisomolu@gmail.com" class="contact-me"
+        <a
+          href="mailto:tanisomolu@gmail.com"
+          class="contact-me"
+          title="Email address"
+          target="_blank"
           >tanisomolu@gmail.com</a
         >
       </div>
       <div class="socials d-flex justify-content-center">
-        <a href="https://www.linkedin.com/in/tani-somolu/"
+        <a
+          href="https://www.linkedin.com/in/tani-somolu/"
+          title="Linkedin profile"
+          target="_blank"
           ><i class="fab fa-linkedin"></i
         ></a>
-        <a href="https://github.com/TSoMoLu"> <i class="fab fa-github"></i></a>
+        <a
+          href="https://github.com/TSoMoLu"
+          title="Github profile"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i
+        ></a>
       </div>
       <div class="git-signature mb-3 text-muted">
-        <a href="https://github.com/TSoMoLu/portfolio-project"
+        <a
+          href="https://github.com/TSoMoLu/portfolio-project"
+          title="Github source code"
+          target="_blank"
           >Open source code</a
         >
         by Tanimola Somolu
