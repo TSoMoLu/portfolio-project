@@ -136,11 +136,40 @@ p {
 
 .content,
 .about-text {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .reads {
   padding: 15px 0 30px;
+}
+
+.contact-me {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: var(--default-font);
+  font-weight: bold;
+}
+.contact-me:hover {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+footer .socials a {
+  font-size: 20px;
+  color: var(--second-color);
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+footer .socials a:hover {
+  color: white;
+  background-color: var(--second-color);
+}
+
+footer .git-signature {
+  font-family: var(--default-font);
+  font-size: 10px;
 }
 
 @media (max-width: 768px) {
